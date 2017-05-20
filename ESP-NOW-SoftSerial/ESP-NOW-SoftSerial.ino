@@ -18,6 +18,6 @@ void setup() {
 
 
 void loop() {
-  Serial.println("\nSoftware serial slave");
+  swSerial.println(millis());
   delay(2000);
 }
