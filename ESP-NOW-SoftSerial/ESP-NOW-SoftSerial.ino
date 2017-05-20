@@ -14,9 +14,10 @@ void setup() {
   pinMode(txPin, OUTPUT);
   Serial.begin(115200);
   swSerial.begin(9600);
-  Serial.println("\nSoftware serial slave");
 }
 
 
 void loop() {
+  Serial.println("\nSoftware serial slave");
+  delay(2000);
 }
