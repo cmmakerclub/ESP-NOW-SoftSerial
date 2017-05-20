@@ -6,7 +6,6 @@
 #define rxPin 14
 #define txPin 12
 
-//SoftwareSerial mySerial (rxPin, txPin);
 SoftwareSerial swSerial(rxPin, txPin);
 
 void setup() {
